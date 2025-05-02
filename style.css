@@ -1,0 +1,49 @@
+body {
+  background-color: #F1EFEC;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.message {
+  font-size: 2rem;
+  color: #123458;
+  margin-bottom: 20px;
+}
+
+.notification {
+  background-color: #fff;
+  border: 2px solid #123458;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px #547792;
+  display: inline-block;
+  animation: fadeIn 1s ease;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  background-color: #123458;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
